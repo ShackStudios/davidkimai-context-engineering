@@ -1,0 +1,25 @@
+# Context Engineering Framework Dependencies
+
+# Core dependencies
+requests>=2.31.0
+python-dateutil>=2.8.2
+
+# Optional MCP server dependencies (install if using MCP integration)
+# These are used by individual MCP servers, not required for core framework
+# pandas>=2.0.0
+# numpy>=1.24.0
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+# scikit-learn>=1.3.0
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.5.0
+
+# Note: This framework is designed to work with MCP servers and AI APIs
+# The specific AI model integration depends on your chosen provider:
+# - OpenAI: openai>=1.0.0
+# - Anthropic: anthropic>=0.3.0
+# - Local models: varies by implementation
